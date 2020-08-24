@@ -7,9 +7,9 @@ import javax.persistence.*;
 @Entity
 @Table(name = "empleado")
 public class Empleado {
-    @Column(name = "empleado_id")
+    @Column(name="empleado_id")
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
 
     private int empleadoId;
     private String nombre;
