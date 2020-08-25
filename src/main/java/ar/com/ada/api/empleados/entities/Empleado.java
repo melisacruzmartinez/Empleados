@@ -23,7 +23,9 @@ public class Empleado {
     @ManyToOne
     private Categoria categoria;
     @Column(name = "estado_id")
-    private int estadoId;
+	private int estadoId;
+	
+
 	public int getEmpleadoId() {
 		return empleadoId;
 	}
